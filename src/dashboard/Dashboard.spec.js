@@ -4,7 +4,7 @@ import Dashboard from './Dashboard.js';
 import Display from '../display/Display.js';
 import Controls from '../controls/Controls.js';
 import 'jest-dom/extend-expect';
-import { render, fireEvent, cleanup } from 'react-testing-library';
+import { render } from 'react-testing-library';
 
 describe('Renders', () => {
     describe('Dashboard', () => {
