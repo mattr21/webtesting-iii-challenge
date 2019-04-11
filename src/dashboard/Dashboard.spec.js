@@ -6,7 +6,7 @@ import Controls from '../controls/Controls.js';
 import 'jest-dom/extend-expect';
 import { render } from 'react-testing-library';
 
-describe('Renders', () => {
+describe('Renders', () => { 
     describe('Dashboard', () => {
         it('renders without crashing', () => {
             const div = document.createElement('div');

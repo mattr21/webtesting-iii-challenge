@@ -9,5 +9,5 @@ describe('default settings', () => {
         const { getByText } = render(<Display />);
         getByText(/unlocked/i);
         getByText(/open/i);
-    })
+    }) 
 });
